@@ -1,0 +1,507 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #181818;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-y: auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.container{
+  padding: 10px 20px;
+}
+
+.logo{
+  width: 220px;
+  height: auto;
+  margin: 40px;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+.description{
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.projects {
+  text-align: center;
+  position: relative;
+  padding: 90px;
+  overflow: hidden;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Container para os ícones */
+.tech-icons {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+}
+
+/* Estilização dos ícones */
+.icon {
+  width: 200px;        
+  height: auto;
+  filter: brightness(0.9) contrast(1.2);
+  position: absolute;
+}
+
+/* Posicionamento específico */
+.csharp {
+  left: 30%;
+  bottom: 0;
+  transform: rotate(-15deg);
+}
+
+.java {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%) rotate(10deg);
+}
+
+.python {
+  right: 30%;
+  bottom: 0;
+  transform: rotate(-10deg);
+}
+
+/* Gradiente de fundo */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3;
+  filter: blur(20px);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.linguagens{
+  margin: 120px;
+}
+
+.footer{
+  padding: 30px 80px;
+  margin-top: 40px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: white;
+  color: #6500FF;
+}
+
+.copyright {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+
+/*sobre mim*/
+
+#sobre-mim {
+  padding: 60px 20px;
+  color: white;
+}
+
+#sobre-mim h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.foto-perfil {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.texto {
+  max-width: 900px;
+  text-align: left;
+}
+
+.texto p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.skills, .valores, .missao, .objetivos {
+  margin-bottom: 40px;
+}
+
+.skills ul, .valores ul, .objetivos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li, .valores li, .objetivos li {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.missao p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+.missao, .valores, .skills {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bio .foto-perfil {
+    width: 150px;
+    height: 150px;
+  }
+
+  .texto {
+    text-align: center;
+  }
+}
+
+
+
+/*contato*/
+
+#contato {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contato h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+
+}
+
+#contato p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+
+}
+
+.formulario-contato {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contato .campo {
+  margin-bottom: 20px;
+}
+
+.formulario-contato label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.formulario-contato input, .formulario-contato textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.formulario-contato button {
+  background-color: #9023f5;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.informacoes {
+  margin-top: 40px;
+}
+
+.informacoes h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.informacoes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.informacoes li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.informacoes a {
+  text-decoration: none;
+}
+
+.informacoes a:hover {
+  text-decoration: underline;
+}
+
+
+/*Projetos*/
+
+#meus-projetos {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#meus-projetos h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+ 
+}
+
+#meus-projetos p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.lista-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.projeto-card {
+  width: 490px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  
+}
+
+.projeto-card:hover {
+  transform: scale(1.05);
+}
+
+.projeto-card img {
+  width: 60%;
+  object-fit: cover;
+  margin: 20px;
+  
+}
+
+.detalhes-projeto {
+  padding: 20px;
+}
+
+.detalhes-projeto h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.detalhes-projeto p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.detalhes-projeto h4 {
+  font-size: 1.1em;
+}
+
+.detalhes-projeto a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.detalhes-projeto a:hover {
+  text-decoration: underline;
+}
+
+.prints-telas {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.prints-telas h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.prints-telas img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .lista-projetos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto-card {
+    width: 90%;
+  }
+
+  .prints-telas img {
+    max-width: 100%;
+  }
+}
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+ 
+
+/* Canvas da animação */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Mantém o canvas no fundo */
+}
+
+
+/* Conteúdo no centro da tela */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}

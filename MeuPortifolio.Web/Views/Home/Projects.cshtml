@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+     <link rel="stylesheet" href="~/MeuPortifolio.Web.styles.css" asp-append-version="true" />
+     <script src="~/js/script.js"></script>
+</head>
+<body>
+     <header>
+        <h2>Tainara Alves</h2>
+        <nav>
+           <a href="@Url.Action("Index", "Home")">Página Inicial</a>
+            <a href="@Url.Action("About", "Home")">Sobre Mim</a>
+            <a href="@Url.Action("Projects", "Home")"> Projetos</a>
+             <a href="@Url.Action("Contact", "Home")"> Contato</a>
+        </nav>
+    </header>
+
+  <section id="meus-projetos">
+  <h2>Meus Projetos</h2>
+  <p>Aqui estão alguns dos meus projetos mais recentes, desenvolvidos com tecnologias inovadoras e soluções criativas. Cada um desses projetos reflete minha paixão por criar experiências digitais eficientes e impactantes.</p>
+ <canvas id="memoryCanvas"></canvas>
+  <div class="lista-projetos">
+    <div class="projeto-card">
+      <img class="logop" src="~/Images/logop.png" alt="Projeto Aion">
+      <div class="detalhes-projeto">
+        <h3>Aion - Geração Inteligente de Horários</h3>
+        <p>O Aion é uma plataforma baseada em Inteligência Artificial que otimiza a geração de horários de aulas. Ele considera variáveis como disponibilidade de professores e restrições para maximizar a eficiência.</p>
+        <h4>Tecnologias: C#, ASP.NET, SQL Server, Machine Learning</h4>
+        <a href="https://linkdoaion.com" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <img class="logop" src="~/Images/trevo.png" alt="Projeto Aion">
+      <div class="detalhes-projeto">
+        <h3>AG - Aplicação Suporte à Saúde Mental</h3>
+        <p>AG é uma aplicação desenvolvida para oferecer suporte à saúde mental, conectando usuários e profissionais. O projeto visa proporcionar um ambiente 
+          seguro e acessível para aqueles que buscam apoio, incentivando a prática do autocuidado 
+          e a busca por orientação profissional.</p>
+        <h4>C#, ASP.NET, SQL Server, Machine Learning</h4>
+        <a href="https://linkdoaion.com" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <img src="~/Images/Dengue.png" alt="Projeto DengueUsc">
+      <div class="detalhes-projeto">
+        <h3>Dengue - Prevenção e Conscientização</h3>
+        <p>Projeto de extensão que visa educar sobre a dengue, com informações sobre sintomas, tratamentos e formas de prevenção. A plataforma tem um design intuitivo e acessível.</p>
+        <h4>Tecnologias: React, Node.js, Figma</h4>
+        <a href="https://linkdengueusc.com" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+
+    <div class="projeto-card">
+      <img src="~/Images/usc.png" alt="App de Satisfação">
+      <div class="detalhes-projeto">
+        <h3>App Avaliação de Satisfação - Unisagrado</h3>
+        <p>Aplicação multiplataforma que coleta feedbacks anônimos sobre o atendimento da Unisagrado. Através de um design simples, permite analisar dados e melhorar os serviços.</p>
+        <h4>Tecnologias: C#, SQL Server, Figma</h4>
+        <a href="https://linkappdesatisfacao.com" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+  </div>
+</section>
+ <canvas id="memoryCanvas"></canvas>
+
+    
+</body>
+</html>

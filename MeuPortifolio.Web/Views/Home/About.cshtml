@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Sobre</title>
+     <script src="~/js/script.js"></script>
+       <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+     <link rel="stylesheet" href="~/MeuPortifolio.Web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h2>Tainara Alves</h2>
+        <nav>
+           <a href="@Url.Action("Index", "Home")">Página Inicial</a>
+            <a href="@Url.Action("About", "Home")">Sobre Mim</a>
+            <a href="@Url.Action("Projects", "Home")"> Projetos</a>
+             <a href="@Url.Action("Contact", "Home")"> Contato</a>
+        </nav>
+    </header>
+ <canvas id="memoryCanvas"></canvas>
+    <section id="sobre-mim">
+  <div class="container">
+    <h2>Sobre Mim</h2>
+    <div class="bio">
+      <img src="~/Images/logo.png" class="foto-perfil">
+      <div class="texto">
+        <p>Olá! Eu sou a <strong>Tainara Alves do Nascimento</strong>, uma desenvolvedora apaixonada por criar soluções tecnológicas que impactam positivamente as pessoas. Com um amor imenso por programação e design, busco transformar ideias em realidades digitais que conectam pessoas e resolvem problemas de forma criativa e eficiente.</p>
+        <p>Minha jornada no desenvolvimento começou com o fascínio por lógica, resolução de problemas e a ideia de transformar ideias em produtos funcionais. Hoje, sou especialista em <strong>C#</strong>, <strong>Machine Learning</strong>, <strong>Design de Interfaces</strong> e <strong>Segurança Cibernética</strong>, e minha missão é usar a tecnologia para transformar a experiência do usuário e criar sistemas inovadores.</p>
+        <p>Quando não estou escrevendo código, você pode me encontrar aprendendo novas tecnologias, explorando design gráfico ou conectando com outras pessoas que compartilham minha paixão por inovação.</p>
+      </div>
+    </div>
+
+    <div class="skills">
+      <h3>Minhas Habilidades</h3>
+      <ul>
+        <li><strong>C#</strong> – Desenvolvimento de sistemas robustos e escaláveis.</li>
+        <li><strong>ASP.NET</strong> – Criação de aplicações web dinâmicas.</li>
+        <li><strong>Machine Learning</strong> – Implementação de algoritmos para tomada de decisão inteligente.</li>
+        <li><strong>Design de Interfaces</strong> – Desenvolvimento de experiências digitais intuitivas.</li>
+        <li><strong>SQL</strong> – Gerenciamento e integração de bancos de dados.</li>
+        <li><strong>Cibersegurança</strong> – Proteção de dados e sistemas contra ameaças.</li>
+      </ul>
+    </div>
+
+    <div class="valores">
+      <h3>Meus Valores</h3>
+      <p>Acredito que a tecnologia deve ser acessível, inovadora e humana. Meus projetos não são apenas sobre código, mas sobre como eles podem impactar positivamente a vida das pessoas. Aqui estão os valores que guiam o meu trabalho:</p>
+      <ul>
+        <li><strong>Inovação:</strong> Buscar sempre novas soluções e melhorar processos existentes.</li>
+        <li><strong>Empatia:</strong> Colocar o usuário no centro das decisões de design e desenvolvimento.</li>
+        <li><strong>Aprendizado contínuo:</strong> A tecnologia está sempre mudando, e eu estou comprometida em crescer constantemente.</li>
+      </ul>
+    </div>
+
+    <div class="missao">
+      <h3>Minha Missão</h3>
+      <p>Minha missão é criar sistemas e experiências digitais que não só atendam às necessidades dos usuários, mas que também inspirem, transformem e melhorem a vida das pessoas. Busco sempre oferecer soluções tecnológicas eficientes, seguras e acessíveis, com um foco genuíno no impacto positivo.</p>
+    </div>
+
+    <div class="objetivos">
+      <h3>Meus Objetivos</h3>
+      <ul>
+        <li>Desenvolver projetos que unam inovação e usabilidade, criando soluções que realmente façam a diferença.</li>
+        <li>Aprofundar meus conhecimentos em Inteligência Artificial e Machine Learning para aplicar soluções inteligentes nos sistemas.</li>
+        <li>Criar sistemas e aplicativos acessíveis, com foco em inclusão digital e segurança cibernética.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
