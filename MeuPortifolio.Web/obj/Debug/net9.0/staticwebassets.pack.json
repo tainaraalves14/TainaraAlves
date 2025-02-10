@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Images\\csharp.png"
     },
     {
+      "Id": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\Images\\design.png",
+      "PackagePath": "staticwebassets\\Images\\design.png"
+    },
+    {
       "Id": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\Images\\fundo.png",
       "PackagePath": "staticwebassets\\Images\\fundo.png"
     },

@@ -18,12 +18,12 @@ header{
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 25px;
   font-weight: bold;
 }
 
 .container{
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .logo{
@@ -61,7 +61,7 @@ h2 {
 .tech-icons {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 400px;
   margin-top: 60px;
 }
 
@@ -108,7 +108,8 @@ h2 {
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  height: 400px;
+  gap: 40px;
   padding: 20px;
 }
 .card {
@@ -123,9 +124,30 @@ h2 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 .icon {
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
+
+.skill-description {
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.tag {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
 .linguagens{
   margin: 120px;
 }
@@ -282,6 +304,7 @@ h3 {
 #contato p {
   font-size: 1.2em;
   margin-bottom: 40px;
+  margin: 60px;
 
 }
 
