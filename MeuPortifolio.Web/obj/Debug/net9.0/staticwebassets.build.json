@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kLhwA4F1PfnZd1/sREmrI0lSSNk66a/eJHvir14GhlM=",
+  "Hash": "mdwWSesIOWxJ3Rr2lHR6QrN0e1y9B2Pa6zTNSxF13HQ=",
   "Source": "MeuPortifolio.Web",
   "BasePath": "_content/MeuPortifolio.Web",
   "Mode": "Default",
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-0t1rk25cw7.gz",
+      "Identity": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-gielwgpc3r.gz",
       "SourceId": "MeuPortifolio.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MeuPortifolio.Web",
-      "RelativePath": "css/site#[.{fingerprint=0t1rk25cw7}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=gielwgpc3r}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ga5u29jo01",
-      "Integrity": "uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0=",
+      "Fingerprint": "w4db0b7hba",
+      "Integrity": "QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0t1rk25cw7",
-      "Integrity": "5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw=",
+      "Fingerprint": "gielwgpc3r",
+      "Integrity": "uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3043,13 +3043,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.0t1rk25cw7.css",
-      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-0t1rk25cw7.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-gielwgpc3r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000496770989"
+          "Quality": "0.000495294700"
         }
       ],
       "ResponseHeaders": [
@@ -3059,19 +3059,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2012"
+          "Value": "2018"
         },
         {
           "Name": "ETag",
-          "Value": "\"uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0=\""
+          "Value": "\"QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3087,26 +3087,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw=\""
+          "Value": "W/\"uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "0t1rk25cw7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw="
+          "Value": "sha256-uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk="
         }
       ]
     },
     {
-      "Route": "css/site.0t1rk25cw7.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3116,7 +3108,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7799"
+          "Value": "7858"
         },
         {
           "Name": "Content-Type",
@@ -3124,11 +3116,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw=\""
+          "Value": "\"uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-gielwgpc3r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gielwgpc3r.css",
+      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-gielwgpc3r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000495294700"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2018"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gielwgpc3r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.gielwgpc3r.css",
+      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3138,7 +3275,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0t1rk25cw7"
+          "Value": "gielwgpc3r"
         },
         {
           "Name": "label",
@@ -3146,13 +3283,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw="
+          "Value": "sha256-uCwg024XJkdW+/3SIoBSvVgIRN5n0hNzTTj5SxGueLk="
         }
       ]
     },
     {
-      "Route": "css/site.0t1rk25cw7.css.gz",
-      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-0t1rk25cw7.gz",
+      "Route": "css/site.gielwgpc3r.css.gz",
+      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-gielwgpc3r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3161,7 +3298,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2012"
+          "Value": "2018"
         },
         {
           "Name": "Content-Type",
@@ -3169,11 +3306,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0=\""
+          "Value": "\"QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
+          "Value": "Mon, 10 Feb 2025 17:15:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3191,7 +3328,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0t1rk25cw7"
+          "Value": "gielwgpc3r"
         },
         {
           "Name": "label",
@@ -3199,144 +3336,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-0t1rk25cw7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000496770989"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2012"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7799"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5G2bC1n3N7ZSW9VoAQmt7uvkhxs3hn57hJddrDYrUxw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\tadna\\Desktop\\TainaraAlves\\MeuPortifolio.Web\\obj\\Debug\\net9.0\\compressed\\qkwl9an7vb-0t1rk25cw7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2012"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 15:01:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uFOfhqr4CcXEdtsBLvoZisqNNlOy/8cG+hxGlSibhd0="
+          "Value": "sha256-QNPb2MuesjQeGO45K5/MJlO6kqTfFWfIXTcssurNhrs="
         }
       ]
     },

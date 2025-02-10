@@ -18,7 +18,6 @@ C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\bin\Debug\net9.0\MeuPortif
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\scopedcss\bundle\MeuPortifolio.Web.styles.css
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\scopedcss\projectbundle\MeuPortifolio.Web.bundle.scp.css
-C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\compressed\qkwl9an7vb-0t1rk25cw7.gz
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\compressed\m1tadc0ujn-61n19gt1b8.gz
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\compressed\l0nmk23twx-8gibdolpv7.gz
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\compressed\2enwdszz0a-bqjiyaj88i.gz
@@ -96,3 +95,4 @@ C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\refint\Me
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\MeuPortifolio.Web.pdb
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\MeuPortifolio.Web.genruntimeconfig.cache
 C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\ref\MeuPortifolio.Web.dll
+C:\Users\tadna\Desktop\TainaraAlves\MeuPortifolio.Web\obj\Debug\net9.0\compressed\qkwl9an7vb-gielwgpc3r.gz
